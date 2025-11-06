@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Adição: " + calc.somar(10, 5));
         System.out.println("Subtração: " + calc.subtrair(10, 5));
         System.out.println("Multiplicação: " + calc.multiplicar(10, 5));
-        System.out.println("Divisão: " + calc.dividir(10, 5)); // Divisão por zero
+        System.out.println("Divisão: " + calc.dividir(10, 5)); 
 
         double a = 10;
         a = calc.atribuir(10, 5);
@@ -25,4 +25,5 @@ public class Main {
         System.out.println("Menor ou igual: " + calc.menorOuIgual(10, 5));
     }
 }
+
 
