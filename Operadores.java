@@ -17,7 +17,7 @@ public class Operadores {
     }
 
     public static double atribuir(double a, double b) {
-        return b; // Atribui o valor de b a a
+        return b; 
     }
 
     public static boolean and(boolean a, boolean b) {
@@ -56,4 +56,5 @@ public class Operadores {
         return a <= b;
     }
 }
+
 
